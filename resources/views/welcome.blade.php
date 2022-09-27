@@ -132,6 +132,8 @@
 </html>
 
 
+base64:yp0Xak3UiaRma7zAuI5PtH9q530boQ38DOcCCyyzsnk=
+
 chmod 400 bennebosmarket.pem
 ssh -i "bennebosmarket.pem" ec2-user@ec2-13-59-203-141.us-east-2.compute.amazonaws.com
 ssh -i "bennebosmarket.pem" ec2-user@ec2-13-59-203-141.us-east-2.compute.amazonaws.com
