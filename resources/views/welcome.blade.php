@@ -137,6 +137,8 @@ ssh -i "bennebosmarket.pem" ec2-user@ec2-13-59-203-141.us-east-2.compute.amazona
 ssh -i "bennebosmarket.pem" ec2-user@ec2-13-59-203-141.us-east-2.compute.amazonaws.com
 ssh -i "bennebosmarket.pem" ec2-user@ec2-13-59-203-141.us-east-2.compute.amazonaws.com
 
+ssh -i "demoproject.pem" ec2-user@ec2-18-217-140-78.us-east-2.compute.amazonaws.com
+
 location / {
     try_files $uri $uri/ /index.php?$query_string;
 }
